@@ -6,7 +6,7 @@ public class ContohChar {
 		// Deklarasi variabel char
 		char huruf1 = 'A';
 		char huruf2 = 'B';
-		char angka= '7';
+		char angka = '7';
 		char simbol = '#';
 		
 		// Menampilkan Nilai Variabel Char 
@@ -18,7 +18,7 @@ public class ContohChar {
 		
 		// Operasi Dengan Char (berdasarkan kode Unicode/ASCII)
 		char huruf3 = (char) (huruf1 + 1); // A (65) + 1 = B (66)
-		System.out.println("Huruf1 + = " + huruf3);
+		System.out.println("Huruf1 + 1 = " + huruf3);
 		
 		// Char jiga bisa disimpan dalam Integer (ASCII/Unicode value)
 		int kodehuruf = huruf1;
